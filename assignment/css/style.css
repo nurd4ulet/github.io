@@ -1,0 +1,242 @@
+:root{
+    --yellow:#ea832b;
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Mukta', sans-serif;
+    outline: none;
+    border:none;
+    text-decoration: none;
+}
+
+html
+{
+    font-size: 60%;
+    overflow-x: hidden;
+}
+
+section
+{
+    padding:20px 9%;
+}
+
+.btn
+{
+    display: inline-block;
+    margin-top: 16px;
+    border-radius: 88px;
+    background:#333;
+    color:#fff;
+    padding:.190px 70px;
+    cursor: pointer;
+    font-size: 25px;
+}
+.btn:hover
+{
+     color:var(--yellow);
+     cursor: pointer;
+}
+
+
+header
+{
+    position: fixed;
+    top:0; left:0; right:0;
+    background:#31302e;
+    padding:12px 9%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+    box-shadow: 0 .80px 400px rgba(0,0,0,10);
+}
+
+header .navbar a
+{
+    font-size: 22px;
+    padding:0 25px;
+    color:antiquewhite;
+}
+
+header .navbar a:hover
+{
+    color:var(-yellow);
+}
+
+
+.home
+{
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    background:url(/images/pexels-almighty-shilref-3432265.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.home .content
+{
+max-width: 1920px;
+}
+
+.home .content h3
+{
+    font-size: 60px;
+    color:antiquewhite;
+}
+
+.home .content span
+{
+    font-size: 30px;
+    color:antiquewhite;
+    padding:10px 0;
+    line-height: 1.5;
+}
+
+.home .content p
+{
+    font-size: 24px;
+    color:antiquewhite;
+    padding:16px 0;
+    line-height: 1.5;
+}
+
+.about
+{
+    align-items: center;
+    min-height: 100vh;
+    background-color:white;
+    background-position: center;
+}
+
+.about h1
+{
+    margin-top: 30px;
+    text-align: center;
+    font-size:100px;
+}
+
+.about .content h3
+{
+font-size: 30px;
+
+}
+
+.about .content ul img
+{
+    float:right;
+}
+.about .content p
+{
+font-size: 20px;
+}
+.about .content ul
+{
+font-size: 20px;
+}
+.about .content ol
+{
+font-size: 20px;
+}
+.products
+{
+    align-items: center;
+    min-height: 100vh;
+    background-color:white;
+    background-position: center;
+}
+.products h1
+{
+    margin-top: 45px;
+    text-align: center;
+    font-size:100px;
+}
+.products h2
+{
+    text-align: center;
+    font-size:26px;
+}
+.products h3
+{
+    text-align: center;
+    font-size:26px;
+}
+.products table, th, td
+{
+    border:1px solid black;
+    font-size:25px;
+    text-align: center;
+    margin-left: 430px;
+}
+.products .form
+{
+    font-size:20px;
+    max-width: 500px;
+}
+.products .form label
+{
+    font-size:20px;
+    border:1px solid black;
+    max-width: 500px;
+    margin-left: 500px;
+
+}
+.products .form input
+{
+    font-size:20px;
+    border:1px solid gray;
+    max-width: 500px;
+    box-shadow: 8px;
+    margin-left: 500px;
+}
+.products .form a{
+    font-size:20px;
+    border:1px solid gray;
+    max-width: 500px;
+    box-shadow: 8px;
+    margin-left: 570px;
+}
+.footer
+{
+    background-color: #3c3c3c;
+}
+.footer .box-container
+{
+    display: flex;
+    align-items: center;
+    min-height: 25vh;
+    background-size: cover;
+    background-position: center;
+    flex-wrap: wrap;
+}
+
+.footer .box-container .box
+{
+    flex:1 1 20px;
+}
+
+.footer .box-container .box h3
+{
+    color:antiquewhite;
+    font-size: 20px;
+    padding:10px 0;
+}
+
+.footer .box-container .box a
+{
+    display: block;
+    color:antiquewhite;
+    font-size: 20px;
+    padding:10px 0;
+}
+
+.footer .box-container .box a:hover
+{
+    color:var(--yellow);
+    text-decoration: underline;
+}
+
+
